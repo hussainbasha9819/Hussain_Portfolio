@@ -2,6 +2,7 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Home from '../Home/Home';
+import { Link } from 'react-router-dom';
 const Main = () => {
   return (
 <>
@@ -122,7 +123,7 @@ Projects</p>
 <div id='color3' className="w-full h-[70vh] phone:relative  flex phone:w-full phone:h-[50vh] phone:flex phone:items-center phone:justify-center  items-end justify-center ">
     <img className=' w-full h-[70vh] phone:w-full phone:h-[50vh]  ' src="https://personal-portfolio-1-three.vercel.app/static/media/wave.fdfef4069ad90f610990.png" alt="" />
     <div className="w-[50%] h-[50vh] phone:w-[50%]  phone:h-[30vh] phone:flex phone:flex-col phone:items-center phone:justify-center phone:gap-4 phone:absolute  phone:bottom-2 gap-7 flex flex-col items-center justify-center absolute  ">
-        <a className='text-5xl font-bold text-purple-300 phone:text-xl 'href="/Portfolio">Portfolio</a>
+        <Link className='text-5xl font-bold text-purple-300 phone:text-xl ' to="/Portfolio">Portfolio</Link>
         <p className='text-lg phone:text-[15px] '>hussainvali@gmail.com</p>
         <div className="w-full phone:w-full phone:flex phone:items-center phone:justify-center phone:gap-5 flex items-center justify-center gap-10 ">
         <i className="fa-brands fa-github text-5xl phone:2xl text-white " ></i>
