@@ -86,8 +86,8 @@ const Home = () => {
     }
   return (
 <>
-<div id='color' className="w-full h-24 flex  phone:w-full phone:h-24 phone:flex  ">
-    <div className="w-[40%] phone:w-[60%] phone:h-24 phone:pl-[0rem] phone:gap-1 phone:flex phone:items-center phone:justify-center h-24 flex gap-[5rem] pl-[4rem] items-center justify-start ">
+<div id='color' className="w-full h-24 flex border-b-2 border-gray-400  phone:w-full phone:h-24 phone:flex  ">
+    <div className="Left w-[40%] phone:w-[60%] phone:h-24 phone:pl-[0rem] phone:gap-1 phone:flex phone:items-center phone:justify-center h-24 flex gap-[5rem] pl-[4rem] items-center justify-start ">
         <h1 id='Hussain' className='text-2xl phone:text-[20px] font-bold '>Hussain Basha </h1>
         <span onClick={COLOR} className='SP phone:w-[25%] phone:h-[30px] phone:gap-1 phone:flex phone:items-center phone:justify-center w-[13%] h-[30px] border-2  flex items-center justify-center gap-1 rounded-full '>
         <span id='SPAN_FLEX' className='w-[20px] h-[20px] bg-[#fca61f] hidden rounded-full '></span>
@@ -99,13 +99,13 @@ const Home = () => {
     <div id='Hussain1' className="Right w-[60%] phone:w-[40%] phone:h-24 phone:flex phone:items-center phone:gap-1 phone:justify-center h-24 flex items-center justify-evenly ">
         <span className='font-bold phone:hidden '>Home</span>
         <span className='font-bold phone:hidden '><a href="#Experience">Experience</a></span>
+            <span className=' hover:text-blue-600 hover:font-bold font-bold phone:text-[10px] '>
             <Link className='phone:flex' to="/Portfolio" >
-            <span className='font-bold phone:text-[10px] '>
                 Portfolio
-                </span>
             </Link>
+                </span>
         <span className='font-bold phone:hidden '><a href="">Testimonial</a></span>
-        <button className='BTN p-3 shadow-lg shadow-[#fca61f]  rounded-full'>Contact </button>
+        <button className='BTN p-3 shadow-lg shadow-[#fca61f]  rounded-full'><a href="#color2">Contact </a></button>
     </div>
 </div>
 </> 
