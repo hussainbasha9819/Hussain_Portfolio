@@ -101,9 +101,9 @@ const Main = () => {
                 </div>
             </div>
             <div id='color2' className="w-full h-[85vh] phone:h-[85vh]   flex phone:flex  ">
-                <div className="w-[50%] h-[85vh] phone:w-[95%] phone:h-[85vh]   mx-auto max-w-screen-md">
+                <div className="w-[50%] h-[85vh] phone:w-[95%] phone:h-[82vh]   mx-auto max-w-screen-md">
                     <h2 id='H2_COL' className="mb-4 text-4xl tracking-tight  text-center text-black font-bold">Contact Us</h2>
-                    <form action="#" className="phone:w-full phone:h-[80vh] h-[80vh] space-y-5 w-[100%]  ">
+                    <form action="#" className="phone:w-full phone:h-[80vh] h-[80vh] space-y-8 w-[100%]  ">
                         <div>
                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
                             <input type="email" id="email" className="shadow-sm bg-gray border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 outline-[#fca61f] dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required />
