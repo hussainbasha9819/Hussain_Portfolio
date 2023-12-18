@@ -1,5 +1,5 @@
 import React from 'react'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";// requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Home from '../Home/Home';
 import { Link } from 'react-router-dom';
@@ -8,12 +8,12 @@ const Main = () => {
         <>
 
             <Home />
-            <div id='color1' className="w-full h-[85vh] flex phone:flex phone:w-full phone:h-[120vh] phone:flex-col     ">
+            <div id='color1' className="w-full h-[85vh] flex phone:flex phone:w-full phone:h-[120vh] phone:flex-col">
                 <div className="w-[40%] phone:w-full phone:h-[50vh] phone:gap-3 phone:pl-[1rem] phone:flex phone:items-start phone:justify-center  h-[80vh]  gap-6  pl-[4rem] flex flex-col items-start justify-center ">
                     <h1 id='text_color' className='text-5xl phone:text-3xl font-bold text-[#242d49] '> Hy! I Am</h1>
                     <h1 className='text-5xl phone:text-3xl font-bold text-[#fca61f] '>M Hussain Basha</h1>
-                    <span className='w-full phone:w-full  phone:flex phone:flex-col flex flex-col text-gray-400 '>
-                        <p className='w-full phone:w-full phone:flex phone:text-[13px] flex text-[17px] gap-1 '>Frontend Developer with high level of experience in <p className='text-[#fca61f]'>web</p></p>
+                    <span className='w-full phone:w-full  phone:flex phone:flex-col flex flex-col text-gray-300 '>
+                        <p className='w-full phone:w-full phone:flex phone:text-[13px] flex text-[17px] gap-1 '>Frontend Developer with medial level of experience in <p className='text-[#fca61f]'>web</p></p>
                         <p className='w-full phone:w-full phone:flex phone:text-[13px] flex text-[17px] '><p className='text-[#fca61f]'>development and designing ,</p>producing the Quality work</p>
                     </span>
                     <button className='BTN w-[25%] phone:w-[25%] phone:h-[50px]  h-[50px] shadow-lg shadow-[#fca61f]  rounded-full'><a href="#color2">Hire Me</a></button>
